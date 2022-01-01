@@ -1,0 +1,380 @@
+public class Program
+{
+    public static void main(String[] args) {
+       //JaVabasic
+1#
+public class Main { int x = 5;
+public static void main(String[] args) { Main  myMethod = new Main(); System.out.println(myMethod.x);
+    
+#2
+public class Exercise1 { public static void main(String[] args) {
+System.out.println("Hello\nAlexandra Abramov!");}
+
+#3
+class Scomment
+public static void main(String args[])  
+Single line comment here;
+System.out.println("Singlelinecommentabove");
+
+#4
+public class BooleanTestExercise { 
+public static void main(String[] args)
+Initialize the boolean variable with value thue or false, once boolean declaration is done                 testResult = true;                 
+Print the value of boolean variable                 System.out.println("TestResultis: " + testResult);                 
+testResult = false;                                  System.out.println("TestResultis: " + testResult);
+
+#5
+static int a = 10
+int b = 20;
+public class Main {
+public static void main(String[] args){
+examl ();  
+System.out.println("Value of non-static variableis: " + (obj.b));  
+System.out.println("Value of static variable is:" + examl.a)); }
+
+#6
+public class Main { static void myMethod()  System.out.println("I just got executed!");
+public static void main(String[] args){
+myMethod(); } }
+
+//Operators
+#1
+import java.io.*; 
+class Subtraction { 
+public static void main(String[] args)
+int num1 = 20, num2 = 10, sub = 0;
+System.out.println("num1 = " + num1);
+System.out.println("num2 = " + num2);
+sub = num1 - num2; 
+System.out.println("Subtraction
+
+#2
+int a;
+Scanner scan=new Scanner(System.in); 
+System.out.print("Enter the Value of a : "); 
+a=scan.nextInt(); 
+System.out.println("Before Increment A : "+a);  System.out.println("After Increment A : "+(++a)); 
+a++; 
+System.out.println("After Two Time Increment A : " +a);System.out.println("Before Decrement A: "+a); 
+ --a; 
+ a--;System.out.println("After Decrement Two Time A : "+a);
+        
+#3
+Scanner in=new Scanner(System.in);         System.out.println("Enter any two numbers to check for equality: ");
+int num1=in.nextInt();
+int num2=in.nextInt();
+if(num1==num2){System.out.println("The two numbers are equal");}
+else if(num1!=num2){
+System.out.println("The numbers are not equal");}
+    
+#4
+public class Equal_Integer
+public static void main(String[] args){
+int m, n;
+Scanner s = new Scanner(System.in);
+System.out.print("Enter the first number:");
+m = s.nextInt()};
+System.out.print("Enter the second number:");
+n = s.nextInt();
+if(m == n); {
+System.out.println(m+" and "+n+" are equal ");}else{
+System.out.println(m+" and "+n+" are not equal "); 
+
+#5
+public static void main(String[] args)
+int x = 200;
+int y = 50; 
+int z = 100; 
+if(x > y && y > z)
+System.out.println("Hello");
+ if(z > y && z < x)
+System.out.println("Java");
+ if((y+200) < x && (y+150) < z)  System.out.println("Hello Java");}
+
+#6
+public static void main(String args[]){
+int a = 10; int b = 20;
+System.out.println("a == b = " + (a == b)); System.out.println("a != b = " + (a != b)); System.out.println("a > b = " + (a > b)); System.out.println("a < b = " + (a < b)); System.out.println("b >= a = " + (b >= a)); System.out.println("b <= a = " + (b <= a)); }
+ 
+#7
+public static void main(String[] args) {
+float num1 = 4.25f;
+int num2 =5;
+System.out.println("The largest number of the two numbers is " + Math.max(num1,num2));
+System.out.println("The smallest number of the two numbers is " + Math.min(num1,num2));}
+
+//Loops
+#1
+public class Loop1 { 
+public static void main(String[] args) { 
+for (int i=0;i<10;i++); {         System.out.println("Bright IT Career");}
+
+#2
+public static void main(String args[]){
+loop counter initialisation
+int i=1;
+System.out.println("Output is : ");             while(i<=10);
+System.out.println(i);(i++);}
+ 
+#3
+public static void main(String[] args)
+Scanner in=new Scanner(System.in);         System.out.println("Enter any two numbers to check for equality:");
+int num1=in.nextInt();
+int num2=in.nextInt();
+if(num1==num2);
+System.out.println("The two numbers are equal");
+  else (num1!=num2);
+System.out.println("The numbers are not equal");
+
+#4
+public static void main(String args[]){  
+it a[]={1,2,5,6,3,2};  
+system.sout.println("Odd Numbers:");  
+for (int i=0;i<a.length;i++){
+if(a[i]%2!=0);
+System.out.println("Even Numbers:");
+for (int i=0;i<a.length;i++);
+if (a[i]%2==0);
+System.out.println(a[i]);
+
+#5
+public static void main(String[] args)
+int num1 = 10,num2 = 20,num3 = 7;
+if( num1 >= num2 && num1 >= num3); System.out.println(num1+" is the largest Number");
+else if (num2 >= num1 && num2 >= num3) System.out.println(num2+" is the largest Number");
+else System.out.println(num3+" is the largest Number");
+    
+#6
+int number=100; 
+System.out.print("List of even numbers from 1 to("+number+":")for (int i=1; i<=number; i++{
+//if i%2 is equal to zero, the number is even  
+if (i%2==0);
+System.out.print(i + " ");
+
+#7
+int num1=100;
+int num2=111;
+switch(num1%2);
+//this will return 0 case 0:
+System.out.println(num1+" is an Even number"); break;
+System.out.println(num2+"is an Odd number");
+
+#8
+public static void main(String[] args) { 
+Scanner s=new Scanner(System.in); 
+System.out.println("Enter m or f");
+char c=s.next().charAt(0);
+switch(c){
+case 'm':
+System.out.println("Gender is male");
+break;
+case 'f':
+System.out.println("Gender is female");
+
+//arrays
+
+#1
+public class ABC{ public static void main(String []args){
+int[] arr = {2,4,5,6}; 
+// creating an ArrayList ArrayList<Integer>
+al = new ArrayList<Integer>();
+for(int x: arr)(al.add(x));
+al.add(10);
+System.out.print(al);
+
+#2
+int[] numbers = new
+int[]{20, 30, 25, 35, -16, 60, -100};  
+int sum = 0;
+for(int i=0;
+i < numbers.length;
+i++) sum = sum + numbers[i];
+calculate average value double average = sum 
+numbers.length;
+System.out.println("Average value of the array elements is : " + average);
+
+#3
+public class Exercise6 { public static int findIndex(
+int[] my_array, int t);
+if (my_array == null) return -1;
+int length = my_array.length; 
+int i = 0; 
+while (i < length){
+if (my_array[i] == t);
+return i; 
+else i=i+1;}
+return -1;
+public static void main(String[] args) 
+int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49}; 
+System.out.println("Index position of 25 is: " + findIndex(my_array, 25)); System.out.println("Index position of 77 is: " + findIndex(my_array, 77));
+
+#4
+int[] num = {1, 2, 3, 4, 5};
+int toFind = 3;
+boolean found = false;
+for(int n : num);
+if(n == toFind)(found = true; break);
+if(found) System.out.println(toFind + " is found."); 
+ else System.out.println(toFind + " is not found.");
+
+#5
+int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+System.out.println("Original Array : "+Arrays.toString(my_array)); 
+// Remove the second element 
+(index->1, value->14) of the array
+int removeIndex = 1;
+for(int i = removeIndex;
+i < my_array.length -1; i++){ my_array[i] = my_array[i + 1];}
+  //the last and second last element in the array will exist twice
+System.out.println("After removing the second element: "+Arrays.toString(my_array));
+
+#6 
+int[] a = {1, 2, 3};
+int[] b = {a;b[0]++};
+System.out.println("Scenario 1: ");    System.out.print("Array a: ");       printArray(a);
+System.out.print("Array b: ");       printArray(b);
+// Copy array by iterating
+int[] c = {1, 2, 3};
+int[] d = new int[c.length];
+for (int i = 0; i < d.length;i++){d[i] = c[i];}
+d[0]++);
+System.out.println("Scenario 2: ");    System.out.print("Array c: ");       printArray(c);
+System.out.print("Array d: ");     printArray(d);
+   
+#7
+int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+//element in 3rd position of the array 
+(index->2, value->5);
+int Index_position = 2;
+int newValue = 5;
+System.out.println("Original Array : "+Arrays.toString(my_array)); 
+for(int i=my_array.length-1);
+i > Index_position;
+i--){ my_array[i] = my_array[i-1];} my_array[Index_position] = newValue; System.out.println("New Array: "+Arrays.toString(my_array));
+
+#8
+int temp;
+//sort the array 
+for (int i = 0; i < a.length; i++) {
+for (int j = i + 1; j < a.length; j++) {         if (a[i] > a[j]){
+temp = a[i];
+a[i] = a[j];
+a[j] = temp;}}}
+//return second largest element 
+return a[a.length - 2];
+public static void main(String args[]) {       int a[] = { 11,10,4, 15, 16, 13, 2 };       System.out.println("Second Largest: " +getSecondLargest(a));}
+
+#//static 
+
+#1
+class Foo{ 
+String name =(" "); 
+public void class (String name) {this.name = name;}
+public static void main(String[] args) 
+//an instance of the class. 
+Foo ob = new Foo(); 
+ob.class("syedfaisal");
+System.out.println(ob.name);
+
+#2
+public class Test;
+public int instanceVariable=10;
+public static void main(String args[]){
+Test test = new Test(); System.out.println(test.instanceVariable); }
+
+#3
+static int count=0;
+public void increment() { count++;}
+public static void main(String args[])
+//Variable
+{
+obj1=new;
+obj2=new;
+obj1.increment();
+obj2.increment();
+System.out.println("Obj1: count is="+obj1.count); 
+System.out.println("Obj2: count is="+obj2.count); }
+
+#4
+public class StaticDemo;{
+static int a = 13; 
+static int b = 1199;
+static void callme();
+System.out.println("The value of a = " + a); } }
+public class TestThis{
+public static void main(String args[]) System.out.println("The value of b = " + StaticDemo.b);}
+
+#//string
+
+#1
+String str = "stringe ex";
+char arrch[]={'h','e','l','l','o'};
+//converting char array arrch[] to string str2 
+String str2 = new String(arrch);
+String str3 = new String("Java String Example");
+//Displaying all the three strings
+System.out.println(str);     System.out.println(str2);     System.out.println(str3);} }
+
+#2
+class TestStringConcatenation1{  
+public static void main(String args[]){
+String s="syed"+" faisal";
+System.out.println(s);//syed faisal
+}
+
+#3
+public class LengthExample{
+public static void main(String args[])
+String s1="javaexample";
+String s2="python";
+System.out.println("string length is: "+s1.length());
+10 is the length of javaexample stringSystem.outprintln("string length is: "+s2.length());
+
+#4
+public class SubStringExample{
+public static void main(String args[])
+String str= new;
+String("A bus is running very slowly");
+System.out.println("Substring starting from index 15:"); System.out.println(str.substring(15)); System.out.println("Substring starting from index 15 and ending at 20:"); System.out.println(str.substring(15, 20)); }
+
+#5
+public class Main
+public static void main(String[] args)
+String myStr =("Hello planet earth, you are a great planet."); System.out.println(myStr.indexOf("e", 5)); }
+
+#6
+import java.util.regex.;
+public class RegexExample1{
+public static void main(String args[]){
+Pattern p = Pattern.compile(".s");
+Matcher m = p.matcher("as");
+boolean b = m.matches();
+System.out.println(b+ "");
+
+#7
+class rep1 { 
+public static void main(String args[]) { 
+String Str = new String("Welcome tojalatechnologies");
+System.out.print("After replacing all o with T : " );
+System.out.println(Str.replace('o', 'T')); System.out.print("After replacing all e with D : " );
+System.out.println(Str.replace('e', 'D'));
+
+#8
+int a = 1234;
+int b = -1234;
+String str1 = Integer.toString(a);
+String str2 = Integer.toString(b);
+System.out.println("String str1 = " + str1);
+System.out.println("String str2 = " + str2);
+
+#9
+//converts all upper case letters in to lower
+case letters String str1 = "SELF LEARNING CENTER"; 
+System.out.println("string value = " + str1.toLowerCase());
+str1 = "JALA TECHNOLOGY; System.out.println("string value = " + str1.toLowerCase());
+//converts all lower case letters in to upper
+case letters String str2 = "jala technology";
+System.out.println("string value = " + str2.toUpperCase());
+System.out.println("string value = " + str2.toUpperCase());}
+  }
+}
