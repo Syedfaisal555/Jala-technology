@@ -1,0 +1,81 @@
+body {
+
+<head>
+<style>
+p {
+  color: red;  /* Set text color to red */
+} 
+</style>
+</head>
+<body>
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+
+<head>
+<style>
+body {
+background-image: url("img_https://unsplash.com/photos/bZH1OzaOvlM");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+<h1>The background-attachment Property</h1>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+<p>The background-image is fixed. Try to scroll down the page.</p>
+
+
+<head>
+<style>
+h1 {border-style: dotted;
+}
+div {border-style: dotted;
+}
+</style>
+</head>
+<body>
+<h1>A Heading with a dotted border</h1>
+<div>A div element with a dotted border.</div>
+</body>
+
+<head>
+<style>
+div {
+height: 200px;
+width: 50%;
+background-color: powderblue;
+}
+</style>
+</head>
+<body>
+<h2>Set the height and width of an element</h2>
+<div>This div element has a height of 200px and a width of 50%.</div>
+</body>
+
+<head>
+<style>
+p.a {
+font-style: normal;
+}
+p.b {
+font-style: italic;
+}
+p.c {
+font-style: oblique;
+}
+</style>
+</head>
+<body>
+<h1>The font-style Property</h1>
+<p class="a">This is a paragraph, normal.</p>
+<p class="b">This is a paragraph, italic.</p>
+<p class="c">This is a paragraph, oblique.</p>
+</body>
+}
